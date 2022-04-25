@@ -4,7 +4,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "test",
+      "name": "num0",
       "outputs": [
         {
           "internalType": "uint256",
@@ -19,7 +19,7 @@
     {
       "constant": true,
       "inputs": [],
-      "name": "test2",
+      "name": "num1",
       "outputs": [
         {
           "internalType": "uint256",
@@ -32,12 +32,12 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"test\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"test2\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Test.sol\":\"Test\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Test.sol\":{\"keccak256\":\"0xd2a5b0b22f26ace8041e9338226488f16b8afb50e359c63e9253c539d9c1da81\",\"urls\":[\"bzz-raw://d41a85577c686f7a3bd51a51babed62c528f946e54c73482f01c069296d055b6\",\"dweb:/ipfs/QmbSj2G4wPyYRJq5YZ91dsSgm5WKDpa7wSbTYWhTsB22ys\"]}},\"version\":1}",
-  "bytecode": "0x6080604052600080556001805534801561001857600080fd5b5060b0806100276000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806366e41cb7146037578063f8a8fd6d146053575b600080fd5b603d606f565b6040518082815260200191505060405180910390f35b60596075565b6040518082815260200191505060405180910390f35b60015481565b6000548156fea265627a7a723158202791a021b54b95ba41024b33c3c954677ee26a113dbe1069f12fbd291c23a5c164736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806366e41cb7146037578063f8a8fd6d146053575b600080fd5b603d606f565b6040518082815260200191505060405180910390f35b60596075565b6040518082815260200191505060405180910390f35b60015481565b6000548156fea265627a7a723158202791a021b54b95ba41024b33c3c954677ee26a113dbe1069f12fbd291c23a5c164736f6c63430005100032",
-  "sourceMap": "65:75:0:-;;;106:1;84:23;;136:1;113:24;;65:75;8:9:-1;5:2;;;30:1;27;20:12;5:2;65:75:0;;;;;;;",
-  "deployedSourceMap": "65:75:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;65:75:0;;;;;;;;;;;;;;;;;;;;;;;;113:24;;;:::i;:::-;;;;;;;;;;;;;;;;;;;84:23;;;:::i;:::-;;;;;;;;;;;;;;;;;;;113:24;;;;:::o;84:23::-;;;;:::o",
-  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\ncontract Test{\n    uint256 public test = 0;\n    uint256 public test2 = 1;\n}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"num0\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"num1\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Test.sol\":\"Test\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Test.sol\":{\"keccak256\":\"0xcd0740b7f4e1a50b3a52b5ab33a3b5c6d50c725549b0c8376d948a66f89989c6\",\"urls\":[\"bzz-raw://7a1b5b5e787fc8f5d33edc3c63a3224decae56b1129379b7185838f443b02061\",\"dweb:/ipfs/QmTe5WduSY5Avj5tmkAckWr5ELpeXmzqdNyuWSQ1xKx1BD\"]}},\"version\":1}",
+  "bytecode": "0x6080604052600080556001805534801561001857600080fd5b5060b0806100276000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80633b9eac4b146037578063707d0b30146053575b600080fd5b603d606f565b6040518082815260200191505060405180910390f35b60596075565b6040518082815260200191505060405180910390f35b60015481565b6000548156fea265627a7a723158208f6dffe752d80c964c76671427f7e3216808eac0ddcce697a8c491d5462dbaea64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80633b9eac4b146037578063707d0b30146053575b600080fd5b603d606f565b6040518082815260200191505060405180910390f35b60596075565b6040518082815260200191505060405180910390f35b60015481565b6000548156fea265627a7a723158208f6dffe752d80c964c76671427f7e3216808eac0ddcce697a8c491d5462dbaea64736f6c63430005100032",
+  "sourceMap": "65:74:0:-;;;106:1;84:23;;135:1;113:23;;65:74;8:9:-1;5:2;;;30:1;27;20:12;5:2;65:74:0;;;;;;;",
+  "deployedSourceMap": "65:74:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;65:74:0;;;;;;;;;;;;;;;;;;;;;;;;113:23;;;:::i;:::-;;;;;;;;;;;;;;;;;;;84;;;:::i;:::-;;;;;;;;;;;;;;;;;;;113;;;;:::o;84:::-;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\ncontract Test{\n    uint256 public num0 = 0;\n    uint256 public num1 = 1;\n}",
   "sourcePath": "/home/patrick/Documents/Project/crypto-tech/contracts/Test.sol",
   "ast": {
     "absolutePath": "project:/contracts/Test.sol",
@@ -79,7 +79,7 @@
           {
             "constant": false,
             "id": 4,
-            "name": "test",
+            "name": "num0",
             "nodeType": "VariableDeclaration",
             "scope": 8,
             "src": "84:23:0",
@@ -122,10 +122,10 @@
           {
             "constant": false,
             "id": 7,
-            "name": "test2",
+            "name": "num1",
             "nodeType": "VariableDeclaration",
             "scope": 8,
-            "src": "113:24:0",
+            "src": "113:23:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -152,7 +152,7 @@
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "136:1:0",
+              "src": "135:1:0",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_1_by_1",
@@ -164,10 +164,10 @@
           }
         ],
         "scope": 9,
-        "src": "65:75:0"
+        "src": "65:74:0"
       }
     ],
-    "src": "32:108:0"
+    "src": "32:107:0"
   },
   "legacyAST": {
     "attributes": {
@@ -216,7 +216,7 @@
           {
             "attributes": {
               "constant": false,
-              "name": "test",
+              "name": "num0",
               "scope": 8,
               "stateVariable": true,
               "storageLocation": "default",
@@ -258,7 +258,7 @@
           {
             "attributes": {
               "constant": false,
-              "name": "test2",
+              "name": "num1",
               "scope": 8,
               "stateVariable": true,
               "storageLocation": "default",
@@ -290,43 +290,37 @@
                 },
                 "id": 6,
                 "name": "Literal",
-                "src": "136:1:0"
+                "src": "135:1:0"
               }
             ],
             "id": 7,
             "name": "VariableDeclaration",
-            "src": "113:24:0"
+            "src": "113:23:0"
           }
         ],
         "id": 8,
         "name": "ContractDefinition",
-        "src": "65:75:0"
+        "src": "65:74:0"
       }
     ],
     "id": 9,
     "name": "SourceUnit",
-    "src": "32:108:0"
+    "src": "32:107:0"
   },
   "compiler": {
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
-    "4": {
-      "events": {},
-      "links": {},
-      "address": "0x63d540287d7eB74475e69EAEEDA420bD753d2334",
-      "transactionHash": "0xaa7e7876f155d3a64112080f00a57c0911e53e96d0994eb1d56ea5df1ed6e2f7"
-    },
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x7799815FB55236E74986a3BBFE3aD60B85e9Dd16",
-      "transactionHash": "0xb3add88c8f9e0fe1c72c5306ff71551f3d8944f2d02617bae2fa0bffc520be68"
+      "address": "0x06Ba37302353181627968E7EBb068923DAc8A25e",
+      "transactionHash": "0x6314ebc8f4d420ccfcdef20639b2d4139c5374d0424379316eb1aec6d47869f5"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-04-25T17:38:05.168Z",
+  "updatedAt": "2022-04-25T19:32:28.978Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

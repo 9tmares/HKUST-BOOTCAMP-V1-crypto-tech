@@ -1,0 +1,10 @@
+/home/siddarth/crypto-tech/frontend/crypto_bootcamp/build/linux/x64/debug/bundle/crypto_bootcamp
+/home/siddarth/crypto-tech/frontend/crypto_bootcamp/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/siddarth/crypto-tech/frontend/crypto_bootcamp/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/siddarth/crypto-tech/frontend/crypto_bootcamp/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/siddarth/crypto-tech/frontend/crypto_bootcamp/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/siddarth/crypto-tech/frontend/crypto_bootcamp/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/siddarth/crypto-tech/frontend/crypto_bootcamp/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/siddarth/crypto-tech/frontend/crypto_bootcamp/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/siddarth/crypto-tech/frontend/crypto_bootcamp/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/siddarth/crypto-tech/frontend/crypto_bootcamp/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z

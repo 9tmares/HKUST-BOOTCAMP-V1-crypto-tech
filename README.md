@@ -13,5 +13,3 @@ truffle migrate --network rinkeby
 ```
 truffle test
 ```
-> *The output should be*
-![](test2.PNG)

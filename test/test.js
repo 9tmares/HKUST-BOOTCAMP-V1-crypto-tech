@@ -1,15 +1,14 @@
-const { assert } = require("chai");
-
-const Test = artifacrs.require('Test')
+const { assert } = require("console");
+const Test = artifacts.require('Test')
 contract('Test',() => {
-    it('Test should be 0',async () => {
+    it('num0 should be 0',async () => {
         const testing = await Test.deployed();
-        const test = await testing.test();
-        assert(test == 0);
+        const num0 = await testing.num0();
+        assert(num0 == 0);
     })
-    it('Test2 should be 1',async () =>{
+    it('num1 should be 1',async () => {
         const testing = await Test.deployed();
-        const test = await testing.test2();
-        assert(test2 == 1);
+        const num1 = await testing.num1();
+        assert(num1 == 1);
     })
 })

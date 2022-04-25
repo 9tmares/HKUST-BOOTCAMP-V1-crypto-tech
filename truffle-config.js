@@ -3,8 +3,8 @@ var mnemonic = "issue reopen before monster crazy spirit pond skate type elite d
 module.exports = {
  networks: {
   development: {
-   host: "127.0.0.1",
-   port: 8545,
+   host: "172.23.112.1",
+   port: 7545,
    network_id: "*"
   },
   rinkeby: {

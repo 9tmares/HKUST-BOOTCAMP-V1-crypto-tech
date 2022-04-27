@@ -1,7 +1,7 @@
 module.exports = {
   networks: {
     live: {
-      host: "172.23.112.1",
+      host: "172.29.96.1",
       port: 7545,
       network_id: "*"
     },

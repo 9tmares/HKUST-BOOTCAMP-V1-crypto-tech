@@ -35,22 +35,22 @@
   "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"num0\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"num1\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Test.sol\":\"Test\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Test.sol\":{\"keccak256\":\"0xcd0740b7f4e1a50b3a52b5ab33a3b5c6d50c725549b0c8376d948a66f89989c6\",\"urls\":[\"bzz-raw://7a1b5b5e787fc8f5d33edc3c63a3224decae56b1129379b7185838f443b02061\",\"dweb:/ipfs/QmTe5WduSY5Avj5tmkAckWr5ELpeXmzqdNyuWSQ1xKx1BD\"]}},\"version\":1}",
   "bytecode": "0x6080604052600080556001805534801561001857600080fd5b5060b0806100276000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80633b9eac4b146037578063707d0b30146053575b600080fd5b603d606f565b6040518082815260200191505060405180910390f35b60596075565b6040518082815260200191505060405180910390f35b60015481565b6000548156fea265627a7a723158208f6dffe752d80c964c76671427f7e3216808eac0ddcce697a8c491d5462dbaea64736f6c63430005100032",
   "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80633b9eac4b146037578063707d0b30146053575b600080fd5b603d606f565b6040518082815260200191505060405180910390f35b60596075565b6040518082815260200191505060405180910390f35b60015481565b6000548156fea265627a7a723158208f6dffe752d80c964c76671427f7e3216808eac0ddcce697a8c491d5462dbaea64736f6c63430005100032",
-  "sourceMap": "65:74:1:-;;;106:1;84:23;;135:1;113:23;;65:74;8:9:-1;5:2;;;30:1;27;20:12;5:2;65:74:1;;;;;;;",
-  "deployedSourceMap": "65:74:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;65:74:1;;;;;;;;;;;;;;;;;;;;;;;;113:23;;;:::i;:::-;;;;;;;;;;;;;;;;;;;84;;;:::i;:::-;;;;;;;;;;;;;;;;;;;113;;;;:::o;84:::-;;;;:::o",
+  "sourceMap": "65:74:2:-;;;106:1;84:23;;135:1;113:23;;65:74;8:9:-1;5:2;;;30:1;27;20:12;5:2;65:74:2;;;;;;;",
+  "deployedSourceMap": "65:74:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;65:74:2;;;;;;;;;;;;;;;;;;;;;;;;113:23;;;:::i;:::-;;;;;;;;;;;;;;;;;;;84;;;:::i;:::-;;;;;;;;;;;;;;;;;;;113;;;;:::o;84:::-;;;;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\ncontract Test{\n    uint256 public num0 = 0;\n    uint256 public num1 = 1;\n}",
   "sourcePath": "/home/patrick/Documents/Project/crypto-tech/contracts/Test.sol",
   "ast": {
     "absolutePath": "project:/contracts/Test.sol",
     "exportedSymbols": {
       "Test": [
-        41
+        68
       ]
     },
-    "id": 42,
+    "id": 69,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 34,
+        "id": 61,
         "literals": [
           "solidity",
           ">=",
@@ -61,7 +61,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:32:1"
+        "src": "32:32:2"
       },
       {
         "baseContracts": [],
@@ -69,20 +69,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 41,
+        "id": 68,
         "linearizedBaseContracts": [
-          41
+          68
         ],
         "name": "Test",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 37,
+            "id": 64,
             "name": "num0",
             "nodeType": "VariableDeclaration",
-            "scope": 41,
-            "src": "84:23:1",
+            "scope": 68,
+            "src": "84:23:2",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -90,10 +90,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 35,
+              "id": 62,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "84:7:1",
+              "src": "84:7:2",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -102,14 +102,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "30",
-              "id": 36,
+              "id": 63,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "106:1:1",
+              "src": "106:1:2",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -121,11 +121,11 @@
           },
           {
             "constant": false,
-            "id": 40,
+            "id": 67,
             "name": "num1",
             "nodeType": "VariableDeclaration",
-            "scope": 41,
-            "src": "113:23:1",
+            "scope": 68,
+            "src": "113:23:2",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -133,10 +133,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 38,
+              "id": 65,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "113:7:1",
+              "src": "113:7:2",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -145,14 +145,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "31",
-              "id": 39,
+              "id": 66,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "135:1:1",
+              "src": "135:1:2",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_1_by_1",
@@ -163,18 +163,18 @@
             "visibility": "public"
           }
         ],
-        "scope": 42,
-        "src": "65:74:1"
+        "scope": 69,
+        "src": "65:74:2"
       }
     ],
-    "src": "32:107:1"
+    "src": "32:107:2"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "project:/contracts/Test.sol",
       "exportedSymbols": {
         "Test": [
-          41
+          68
         ]
       }
     },
@@ -191,9 +191,9 @@
             ".0"
           ]
         },
-        "id": 34,
+        "id": 61,
         "name": "PragmaDirective",
-        "src": "32:32:1"
+        "src": "32:32:2"
       },
       {
         "attributes": {
@@ -207,17 +207,17 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            41
+            68
           ],
           "name": "Test",
-          "scope": 42
+          "scope": 69
         },
         "children": [
           {
             "attributes": {
               "constant": false,
               "name": "num0",
-              "scope": 41,
+              "scope": 68,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256",
@@ -229,9 +229,9 @@
                   "name": "uint256",
                   "type": "uint256"
                 },
-                "id": 35,
+                "id": 62,
                 "name": "ElementaryTypeName",
-                "src": "84:7:1"
+                "src": "84:7:2"
               },
               {
                 "attributes": {
@@ -246,20 +246,20 @@
                   "type": "int_const 0",
                   "value": "0"
                 },
-                "id": 36,
+                "id": 63,
                 "name": "Literal",
-                "src": "106:1:1"
+                "src": "106:1:2"
               }
             ],
-            "id": 37,
+            "id": 64,
             "name": "VariableDeclaration",
-            "src": "84:23:1"
+            "src": "84:23:2"
           },
           {
             "attributes": {
               "constant": false,
               "name": "num1",
-              "scope": 41,
+              "scope": 68,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256",
@@ -271,9 +271,9 @@
                   "name": "uint256",
                   "type": "uint256"
                 },
-                "id": 38,
+                "id": 65,
                 "name": "ElementaryTypeName",
-                "src": "113:7:1"
+                "src": "113:7:2"
               },
               {
                 "attributes": {
@@ -288,24 +288,24 @@
                   "type": "int_const 1",
                   "value": "1"
                 },
-                "id": 39,
+                "id": 66,
                 "name": "Literal",
-                "src": "135:1:1"
+                "src": "135:1:2"
               }
             ],
-            "id": 40,
+            "id": 67,
             "name": "VariableDeclaration",
-            "src": "113:23:1"
+            "src": "113:23:2"
           }
         ],
-        "id": 41,
+        "id": 68,
         "name": "ContractDefinition",
-        "src": "65:74:1"
+        "src": "65:74:2"
       }
     ],
-    "id": 42,
+    "id": 69,
     "name": "SourceUnit",
-    "src": "32:107:1"
+    "src": "32:107:2"
   },
   "compiler": {
     "name": "solc",
@@ -315,12 +315,13 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x7eFfC34fA4394632087864ed2F2C3F7bBdd9d0DF",
-      "transactionHash": "0xb8c1be798c62654e3bef42984d9caac76b97cf538bee3fda776ba1b02e0bb915"
+      "address": "0x4BC7c7CEa73055303fCA315cB7701c526bc32321",
+      "transactionHash": "0x0d45527026faefbfd415909cc2b32c2ebdc840b39ee1b431633edaaf6af6eeda"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-04-25T22:41:29.467Z",
+  "updatedAt": "2022-04-27T02:16:06.241Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
